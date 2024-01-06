@@ -1,5 +1,5 @@
 const express = require('express')
-import mongoose from 'mongoose'
+const mongoose = require('mongoose')
 
 const Animal = mongoose.model('Animal', new mongoose.Schema({
   tipo: String,
